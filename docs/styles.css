@@ -4,3 +4,20 @@
 
 @tailwind components;
 @tailwind utilities;
+
+
+.vocs_Footer {
+    overflow-x: visible;
+}
+
+.google-translate-select-language {
+    white-space: nowrap;
+}
+
+.vocs_Content {
+    @apply !h-[calc(100vh-400px)];
+}
+
+.google-translate-select-dropdown__menu {
+    top: calc(100% - 400px) !important;
+}

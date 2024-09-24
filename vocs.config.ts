@@ -3,8 +3,13 @@ import { defineConfig } from "vocs";
 
 export default defineConfig({
   title: "Masbate Docs",
-  logoUrl: "/logo.svg",
+  logoUrl: {
+    light: "/logo-light.svg",
+    dark: "/logo.svg",
+  },
   description: "",
+  ogImageUrl:
+    "https://vocs.dev/api/og?logo=%logo&title=%title&description=%description",
   sidebar: [
     {
       text: "Getting Started",
@@ -14,11 +19,25 @@ export default defineConfig({
       text: "Example",
       link: "/example",
     },
+    {
+      text: "Guides",
+      collapsed: false,
+      items: [
+        {
+          text: "Example",
+          link: "/example",
+        },
+      ],
+    },
   ],
   topNav: [
     {
       text: "Getting Started",
       link: "/getting-started",
+    },
+    {
+      text: "Blog",
+      link: "/blog",
     },
     {
       text: "Website",

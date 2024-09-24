@@ -488,6 +488,35 @@
   resolved "https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.8.tgz#21a907684723bbbaa5f0974cf7730bd797eb8e62"
   integrity sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==
 
+"@google-translate-select/constants@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.npmmirror.com/@google-translate-select/constants/-/constants-0.1.5.tgz#54c69e18676d7edd88f9243a988c53c2c0301578"
+  integrity sha512-lJJhrT22IXiIZuP0J7g5b2d9qciqWHpzFieup5XAHtAzntFfG52dhT6mPQ06bD803g7zdBhbMpsULdGdAlvh1g==
+
+"@google-translate-select/react@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.npmmirror.com/@google-translate-select/react/-/react-0.1.7.tgz#672c3f2da97007c123a5d8a8104b8852f9958b79"
+  integrity sha512-qptDsmvFHTh+en3XufTKiNs9/qz7Q4PLDLeV4nyXqylJUC7mu5yCA90ZN1onGQPWCTRLm5btS9e/r3Uf5cHk5A==
+  dependencies:
+    "@google-translate-select/constants" "0.1.5"
+    "@google-translate-select/theme-chalk" "0.1.4"
+    "@google-translate-select/utils" "0.1.6"
+    classnames "2.3.2"
+    react "^18.2.0"
+    react-dom "^18.2.0"
+
+"@google-translate-select/theme-chalk@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.npmmirror.com/@google-translate-select/theme-chalk/-/theme-chalk-0.1.4.tgz#84dc02bbd8e6725dc76b7c859ea4782ae6f44007"
+  integrity sha512-Vr65kOW19UmxaWYp9Lf91efunLdcuZiHMSq+qRGFVXP0tsvOAT1M+tCh71GqmOrJ0vqjWFGy8QXh43m9r7j9CQ==
+
+"@google-translate-select/utils@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.npmmirror.com/@google-translate-select/utils/-/utils-0.1.6.tgz#0547d437b7f42f14c4006add279ab10ed4ee2e2e"
+  integrity sha512-1vV1dQEY+PXLRHDo0rCAOgKtmAdXbFywptKZKeIsxxJVFGgt9e6+AepRe72fpvKwtVPzjjwM8nFlniNd7wozag==
+  dependencies:
+    "@google-translate-select/constants" "0.1.5"
+
 "@hono/node-server@^1.2.3":
   version "1.13.1"
   resolved "https://registry.npmmirror.com/@hono/node-server/-/node-server-1.13.1.tgz#0caf4b66e009d872dc745c9f76b71fb0b64b355d"
@@ -1529,6 +1558,11 @@ chroma-js@^2.4.2:
   version "2.6.0"
   resolved "https://registry.npmmirror.com/chroma-js/-/chroma-js-2.6.0.tgz#578743dd359698a75067a19fa5571dec54d0b70b"
   integrity sha512-BLHvCB9s8Z1EV4ethr6xnkl/P2YRFOGqfgvuMG/MyCbZPrTA+NeiByY6XvgF0zP4/2deU2CXnWyMa3zu1LqQ3A==
+
+classnames@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.npmmirror.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 cli-cursor@^4.0.0:
   version "4.0.0"
@@ -3541,7 +3575,7 @@ range-parser@~1.2.1:
   resolved "https://registry.npmmirror.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
-react-dom@latest:
+react-dom@^18.2.0, react-dom@latest:
   version "18.3.1"
   resolved "https://registry.npmmirror.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
@@ -3627,7 +3661,7 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react@latest:
+react@^18.2.0, react@latest:
   version "18.3.1"
   resolved "https://registry.npmmirror.com/react/-/react-18.3.1.tgz#49ab892009c53933625bd16b2533fc754cab2891"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==

@@ -8,6 +8,7 @@
     "preview": "vocs preview"
   },
   "dependencies": {
+    "@google-translate-select/react": "^0.1.7",
     "@types/react": "latest",
     "react": "latest",
     "react-dom": "latest",
