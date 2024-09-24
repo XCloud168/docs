@@ -12,6 +12,7 @@
     "react": "latest",
     "react-dom": "latest",
     "typescript": "latest",
+    "vite-tsconfig-paths": "^5.0.1",
     "vocs": "latest"
   }
 }

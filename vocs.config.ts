@@ -1,3 +1,4 @@
+import tsconfigPaths from "vite-tsconfig-paths";
 import { defineConfig } from "vocs";
 
 export default defineConfig({
@@ -24,4 +25,17 @@ export default defineConfig({
       link: "https://www.masbate.xyz",
     },
   ],
+  socials: [
+    {
+      icon: "x",
+      link: "https://x.com/masbateofficial",
+    },
+    {
+      icon: "discord",
+      link: "https://discord.gg/Fe6m3ew3",
+    },
+  ],
+  vite: {
+    plugins: [tsconfigPaths()],
+  },
 });

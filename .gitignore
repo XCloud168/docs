@@ -50,3 +50,5 @@ yarn-error.log*
 **/public/workbox-*.js*
 **/public/swe-worker-*.js
 **/public/fallback-*.js
+
+/dist
