@@ -15,6 +15,16 @@ export default defineConfig({
     text: "Edit this page",
     pattern: "https://github.com/xcloud168/docs/edit/main/docs/pages/:path",
   },
+  head() {
+    return (
+      <>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D3ZZ8HWHGB"
+        ></script>
+      </>
+    );
+  },
   sidebar: [
     {
       text: "Getting Started",

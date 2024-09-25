@@ -1,7 +1,7 @@
 {
   "name": "masbate-docs",
-  "version": "0.0.0",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vocs dev",
     "build": "vocs build",
