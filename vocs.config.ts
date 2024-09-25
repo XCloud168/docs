@@ -1,4 +1,5 @@
-import tsconfigPaths from "vite-tsconfig-paths";
+import react from "@vitejs/plugin-react";
+
 import { defineConfig } from "vocs";
 
 export default defineConfig({
@@ -55,6 +56,17 @@ export default defineConfig({
     },
   ],
   vite: {
-    plugins: [tsconfigPaths()],
+    resolve: {
+      conditions: ["dev"],
+    },
+    plugins: [react()],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern",
+          silenceDeprecations: ["mixed-decls"],
+        },
+      },
+    },
   },
 });

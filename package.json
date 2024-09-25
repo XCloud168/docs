@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "@google-translate-select/react": "^0.1.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
     "@types/react": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "sass-embedded": "^1.79.3",
     "typescript": "latest",
-    "vite-tsconfig-paths": "^5.0.1",
     "vocs": "latest"
   }
 }

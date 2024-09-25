@@ -10,14 +10,43 @@
     overflow-x: visible;
 }
 
-.google-translate-select-language {
-    white-space: nowrap;
-}
-
 .vocs_Content {
-    @apply !h-[calc(100vh-400px)];
+    @apply !min-h-[calc(100vh-400px)];
 }
 
 /* .google-translate-select-dropdown__menu {
     top: calc(100% - 400px) !important;
 } */
+
+.google-translate-select-dropdown__activator {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 10px;
+    line-height: 35px;
+}
+
+
+.google-translate-select-icon {
+    --color: inherit;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    font-size: inherit;
+    line-height: 1em;
+    color: var(--color);
+    fill: currentcolor;
+}
+
+.google-translate-select-icon svg {
+    width: 1em;
+    height: 1em;
+}
+
+.google-translate-select-language {
+    white-space: nowrap;
+}
