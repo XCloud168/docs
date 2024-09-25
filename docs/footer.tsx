@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="flex flex-row items-center gap-8 justify-between">
       <div>
-        <div className="bg-[url('/logo.svg')] w-[180px] h-[27px] bg-no-repeat mb-2" />
+        <div className="logo_Footer bg-[url('/logo.svg')] w-[180px] h-[27px] bg-no-repeat mb-2" />
         <div>
           Leading Web3 Data Applications, Committed to Delivering Accurate and
           Timely Value Information.

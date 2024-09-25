@@ -50,3 +50,11 @@
 .google-translate-select-language {
     white-space: nowrap;
 }
+
+html.dark .logo_Footer {
+    background-image: url('/logo.svg') !important;
+}
+
+html .logo_Footer {
+    background-image: url('/logo-light.svg') !important;
+}
