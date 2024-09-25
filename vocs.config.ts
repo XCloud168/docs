@@ -11,6 +11,10 @@ export default defineConfig({
   description: "",
   ogImageUrl:
     "https://vocs.dev/api/og?logo=%logo&title=%title&description=%description",
+  editLink: {
+    text: "Edit this page",
+    pattern: "https://github.com/xcloud168/docs/edit/main/docs/pages/:path",
+  },
   sidebar: [
     {
       text: "Getting Started",
@@ -59,7 +63,6 @@ export default defineConfig({
     resolve: {
       conditions: ["dev"],
     },
-    plugins: [react()],
     css: {
       preprocessorOptions: {
         scss: {
@@ -68,5 +71,6 @@ export default defineConfig({
         },
       },
     },
+    plugins: [react()],
   },
 });
