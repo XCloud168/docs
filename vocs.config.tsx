@@ -1,19 +1,40 @@
 import react from "@vitejs/plugin-react";
 
 import { defineConfig } from "vocs";
+import { sidebar } from "./sidebar";
 
 export default defineConfig({
-  title: "Masbate Docs",
+  title:
+    "Masbate | AI-powered Web3 Investment Analysis Platform to Enhance Success Rates",
   logoUrl: {
     light: "/logo-light.svg",
     dark: "/logo.svg",
   },
-  description: "",
+  description:
+    "Masbate is an AI-driven Web3 investment analysis platform that evaluates Web3 KOL call quality, provides real-time market insights, and captures accurate investment signals 24/7 to help users make efficient decisions and create a comprehensive investment loop.",
   ogImageUrl:
     "https://vocs.dev/api/og?logo=%logo&title=%title&description=%description",
   editLink: {
-    text: "Edit this page",
+    text: "Suggest changes to this page",
     pattern: "https://github.com/xcloud168/docs/edit/main/docs/pages/:path",
+  },
+  theme: {
+    accentColor: {
+      light: "#08CB6F",
+      dark: "#08CB6F",
+    },
+    variables: {
+      color: {
+        background: {
+          light: "#FFFFFF",
+          dark: "#000000",
+        },
+        textAccent: {
+          light: "#000000",
+          dark: "#FFFFFF",
+        },
+      },
+    },
   },
   head() {
     return (
@@ -25,30 +46,11 @@ export default defineConfig({
       </>
     );
   },
-  sidebar: [
-    {
-      text: "Getting Started",
-      link: "/getting-started",
-    },
-    {
-      text: "Example",
-      link: "/example",
-    },
-    {
-      text: "Guides",
-      collapsed: false,
-      items: [
-        {
-          text: "Example",
-          link: "/example",
-        },
-      ],
-    },
-  ],
+  sidebar,
   topNav: [
     {
       text: "Getting Started",
-      link: "/getting-started",
+      link: "/docs/getting-started",
     },
     {
       text: "Blog",

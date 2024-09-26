@@ -7,7 +7,7 @@
 
 
 .vocs_Footer {
-    overflow-x: visible;
+    display: none !important;
 }
 
 .vocs_Content {
@@ -17,6 +17,9 @@
 /* .google-translate-select-dropdown__menu {
     top: calc(100% - 400px) !important;
 } */
+.vocs_DocsLayout_content {
+    min-height: calc(100vh - 120px) !important;
+}
 
 .google-translate-select-dropdown__activator {
     white-space: nowrap;
@@ -49,6 +52,20 @@
 
 .google-translate-select-language {
     white-space: nowrap;
+}
+
+.google-translate-select-dropdown__menu {
+    bottom: 100%;
+    top: initial !important;
+}
+
+.custom-footer {
+    z-index: 999;
+    position: relative;
+    padding-top: 10px;
+    padding-left: calc(max(calc((100vw - var(--vocs-content_width)) / 2), var(--vocs-sidebar_width)) - var(--vocs-sidebar_width));
+    padding-right: calc(max(calc((100vw - var(--vocs-content_width)) / 2), var(--vocs-sidebar_width)) - var(--vocs-sidebar_width));
+
 }
 
 html.dark .logo_Footer {
