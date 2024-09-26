@@ -30,16 +30,16 @@ export default defineConfig({
           dark: "#09CB6F",
         },
         backgroundAccentHover: {
-          light: "#4FD377",
-          dark: "#4FD377",
+          light: "#37A758",
+          dark: "#37A758",
         },
         borderAccent: {
           light: "#09CB6F",
           dark: "#09CB6F",
         },
         textAccent: {
-          light: "#FFFFFF",
-          dark: "#FFFFFF",
+          light: "#09CB6F",
+          dark: "#09CB6F",
         },
       },
     },
