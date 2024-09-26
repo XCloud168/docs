@@ -8,22 +8,23 @@ logo: false
 
 import { HomePage } from "vocs/components";
 
-<div className="absolute w-full mx-auto w-full top-20 bottom-0 bg-[url('/bg-light.png')] dark:bg-[url('/bg-dark.png')]  bg-no-repeat max-sm:w-[200%] max-sm:-left-[200px] max-sm:hidden" />
+<div className="absolute w-full mx-auto w-full top-20 bottom-0 bg-[url('/bg-light.png')] dark:bg-[url('/bg-dark.png')] bg-center bg-no-repeat max-sm:w-[200%] max-sm:-left-[200px] max-sm:hidden" />
 
 <div className="max-w-[1120px] mx-auto vp-doc relative px-[24px] mb-[96px] mt-[32px] md:px-0 md:mb-[64px]">
   <div className="pt-[48px] max-sm:pt-0">
     <div className="max-sm:px-0 flex justify-between z-0 max-md:justify-center items-center">
       <div className="space-y-8 w-3/5 flex flex-col items-start max-md:items-center">
+        <div className="notranslate text-5xl text-[#09CB6F] font-mono">Masbate</div>
         <div className="font-regular text-2xl text-[#4c4c4c] dark:text-[#cfcfcf] max-md:text-center">
-          AI-driven <span className="before:block before:absolute before:-inset-1 before:-skew-y-2 before:rounded-lg before:bg-[#09CB6F] relative inline-block"><span className="relative text-white/90">Web3 investment</span></span> signal analysis tool that provides
+          AI-driven <span className="text-[#09CB6F]">Web3 investment</span> signal analysis tool that provides
           precise investment signals, a KOL trust system, and comprehensive
           market insights to assist your investment decisions.
         </div>
         <div className="flex justify-center space-x-2">
-          <HomePage.Button href="/docs/getting-started" variant="accent">
-            Get started
+          <HomePage.Button href="/docs/getting-started" variant="accent" >
+            Get Started
           </HomePage.Button>
-          <HomePage.Button href="https://www.masbate.xy">Application</HomePage.Button>
+          <HomePage.Button href="https://www.masbate.xy" variant="">Application</HomePage.Button>
         </div>
       </div>
       <div className="flex flex-col w-2/5 justify-between bg-[url('/banner.svg')] bg-no-repeat w-[360px] h-[360px] space-y-10 max-lg:w-[300px] max-md:hidden"></div>

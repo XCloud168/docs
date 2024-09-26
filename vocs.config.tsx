@@ -19,18 +19,26 @@ export default defineConfig({
     pattern: "https://github.com/xcloud168/docs/edit/main/docs/pages/:path",
   },
   theme: {
-    accentColor: {
-      light: "#08CB6F",
-      dark: "#08CB6F",
-    },
     variables: {
       color: {
         background: {
           light: "#FFFFFF",
           dark: "#000000",
         },
+        backgroundAccent: {
+          light: "#09CB6F",
+          dark: "#09CB6F",
+        },
+        backgroundAccentHover: {
+          light: "#4FD377",
+          dark: "#4FD377",
+        },
+        borderAccent: {
+          light: "#09CB6F",
+          dark: "#09CB6F",
+        },
         textAccent: {
-          light: "#000000",
+          light: "#FFFFFF",
           dark: "#FFFFFF",
         },
       },
