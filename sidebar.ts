@@ -5,13 +5,13 @@ export const sidebar = {
     backLink: true,
     items: [
       {
-        text: "Getting Started",
-        link: "/docs/getting-started",
+        text: "Introduction",
+        link: "/docs/introduction",
       },
-      // {
-      //   text: "Example",
-      //   link: "/docs/example",
-      // },
+      {
+        text: "References",
+        link: "/docs/references",
+      },
       // {
       //   text: "Guides",
       //   collapsed: false,
