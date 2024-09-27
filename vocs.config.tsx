@@ -1,6 +1,7 @@
 import react from "@vitejs/plugin-react";
 
 import { defineConfig } from "vocs";
+import GTag from "./gtag";
 import { sidebar } from "./sidebar";
 
 export default defineConfig({
@@ -51,19 +52,12 @@ export default defineConfig({
     },
   },
   head() {
-    return (
-      <>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-D3ZZ8HWHGB"
-        ></script>
-      </>
-    );
+    return <GTag />;
   },
   sidebar,
   topNav: [
     {
-      text: "Getting Started",
+      text: "Geting Started",
       link: "/docs/getting-started",
     },
     // {
