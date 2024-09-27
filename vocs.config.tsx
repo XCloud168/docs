@@ -4,6 +4,12 @@ import { defineConfig } from "vocs";
 import { sidebar } from "./sidebar";
 
 export default defineConfig({
+  banner: {
+    backgroundColor: "#09cb6f",
+    textColor: "white",
+    content:
+      "Participate in the Masbate event and win $2,000 gift giveaway! [Join here](https://soquest.xyz/space/Masbate/campaign/ISCQxUxJks). ✨✨✨ ",
+  },
   title:
     "Masbate | AI-powered Web3 Investment Analysis Platform to Enhance Success Rates",
   logoUrl: {
@@ -60,10 +66,10 @@ export default defineConfig({
       text: "Getting Started",
       link: "/docs/getting-started",
     },
-    {
-      text: "Blog",
-      link: "/blog",
-    },
+    // {
+    //   text: "Blog",
+    //   link: "/blog",
+    // },
     {
       text: "Website",
       link: "https://www.masbate.xyz",

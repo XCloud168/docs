@@ -8,20 +8,20 @@ export const sidebar = {
         text: "Getting Started",
         link: "/docs/getting-started",
       },
-      {
-        text: "Example",
-        link: "/docs/example",
-      },
-      {
-        text: "Guides",
-        collapsed: false,
-        items: [
-          {
-            text: "Example",
-            link: "/docs/example",
-          },
-        ],
-      },
+      // {
+      //   text: "Example",
+      //   link: "/docs/example",
+      // },
+      // {
+      //   text: "Guides",
+      //   collapsed: false,
+      //   items: [
+      //     {
+      //       text: "Example",
+      //       link: "/docs/example",
+      //     },
+      //   ],
+      // },
     ],
   },
 } as const satisfies Sidebar;
