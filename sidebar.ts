@@ -12,16 +12,16 @@ export const sidebar = {
         text: "References",
         link: "/docs/references",
       },
-      // {
-      //   text: "Guides",
-      //   collapsed: false,
-      //   items: [
-      //     {
-      //       text: "Example",
-      //       link: "/docs/example",
-      //     },
-      //   ],
-      // },
+      {
+        text: "Guides",
+        collapsed: false,
+        items: [
+          {
+            text: "Notifications",
+            link: "/docs/subscribe-notifications",
+          },
+        ],
+      },
     ],
   },
 } as const satisfies Sidebar;
