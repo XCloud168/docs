@@ -20,6 +20,14 @@ export const sidebar = {
             text: "Notifications",
             link: "/docs/subscribe-notifications",
           },
+          {
+            text: "币安手机端API授权教程",
+            link: "/docs/binance-phone-api",
+          },
+          {
+            text: "币安PC端API授权教程",
+            link: "/docs/binance-pc-api",
+          },
         ],
       },
     ],
