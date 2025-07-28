@@ -13,20 +13,68 @@ export const sidebar = {
         link: "/docs/references",
       },
       {
-        text: "Guides",
+        text: "Notifications",
+        link: "/docs/subscribe-notifications",
+      },
+      {
+        text: "创建交易所凭证",
         collapsed: false,
         items: [
           {
-            text: "Notifications",
-            link: "/docs/subscribe-notifications",
+            text: "币安",
+            collapsed: false,
+            items: [
+              {
+                text: "手机端API授权教程",
+                link: "/docs/binance-phone-api",
+              },
+              {
+                text: "PC端API授权教程",
+                link: "/docs/binance-pc-api",
+              },
+            ],
           },
           {
-            text: "币安手机端API授权教程",
-            link: "/docs/binance-phone-api",
+            text: "Gate",
+            collapsed: false,
+            items: [
+              {
+                text: "手机端API授权教程",
+                link: "/docs/gate-phone-api",
+              },
+              {
+                text: "PC端API授权教程",
+                link: "/docs/gate-pc-api",
+              },
+            ],
           },
+          // {
+          //   text: "Bybit",
+          //   collapsed: false,
+          //   items: [
+          //     {
+          //       text: "手机端API授权教程",
+          //       link: "/docs/bybit-phone-api",
+          //     },
+          //     {
+          //       text: "PC端API授权教程",
+          //       link: "/docs/bybit-pc-api",
+          //     },
+          //   ],
+          // },
           {
-            text: "币安PC端API授权教程",
-            link: "/docs/binance-pc-api",
+            text: "Bitget",
+            collapsed: false,
+            items: [
+              {
+                text: "手机端API授权教程",
+                link: "/docs/bitget-phone-api",
+              },
+              {
+                text: "PC端API授权教程",
+                link: "/docs/bitget-pc-api",
+              },
+            ],
           },
         ],
       },
