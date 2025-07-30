@@ -78,6 +78,10 @@ export const sidebar = {
           },
         ],
       },
+      {
+        text: "Sniper Bot 部署指南",
+        link: "/docs/sniper-bot-deployment",
+      },
     ],
   },
 } as const satisfies Sidebar;
