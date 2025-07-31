@@ -79,6 +79,10 @@ export const sidebar = {
         ],
       },
       {
+        text: "谷歌验证器教程",
+        link: "/docs/google-authenticator-tutorial",
+      },
+      {
         text: "Sniper Bot 部署指南",
         link: "/docs/sniper-bot-deployment",
       },
