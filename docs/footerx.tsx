@@ -6,8 +6,7 @@ export default function Footer() {
       <div className="flex flex-col pl-6">
         <div className="logo_Footer bg-[url('/logo.svg')] w-[180px] h-[27px] bg-no-repeat mb-2" />
         <div>
-          Leading Web3 Data Applications, Committed to Delivering Accurate and
-          Timely Value Information.
+          Leading Web3 data platform with precise signals for intelligent automated trading.
         </div>
       </div>
       <div className="flex items-center pr-8 justify-between">
