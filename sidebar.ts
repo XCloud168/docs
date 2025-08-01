@@ -48,6 +48,20 @@ export const sidebar = {
               },
             ],
           },
+          {
+            text: "火币",
+            collapsed: false,
+            items: [
+              {
+                text: "手机端API授权教程",
+                link: "/docs/huobi-phone-api",
+              },
+              {
+                text: "PC端API授权教程",
+                link: "/docs/huobi-pc-api",
+              },
+            ],
+          },
           // {
           //   text: "Bybit",
           //   collapsed: false,
@@ -81,6 +95,10 @@ export const sidebar = {
       {
         text: "谷歌验证器教程",
         link: "/docs/google-authenticator-tutorial",
+      },
+      {
+        text: "买入及提现BNB教程",
+        link: "/docs/buy-and-withdraw-bnb",
       },
       {
         text: "Sniper Bot 部署指南",
