@@ -9,13 +9,13 @@ export const sidebar = {
         link: "/docs/introduction",
       },
       {
-        text: "References",
-        link: "/docs/references",
+        text: "Tutorials",
+        link: "/docs/tutorials",
       },
-      {
-        text: "Notifications",
-        link: "/docs/subscribe-notifications",
-      },
+      // {
+      //   text: "Notifications",
+      //   link: "/docs/subscribe-notifications",
+      // },
       {
         text: "创建交易所凭证",
         collapsed: false,
