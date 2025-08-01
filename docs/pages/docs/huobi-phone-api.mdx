@@ -1,0 +1,67 @@
+# 火币API授权教程 - 手机端
+
+## 第一步：登录 Huobi 官网
+
+1.打开 Huobi 应用程序，
+
+2.登录你的账户;
+
+3.点击左上角头像>【右上角设置按钮】>【交易设置】，在交易设置页面下拉至底部，进入 【API管理】；
+
+
+![步骤1截图](/images/huobi-phone-step1.png)
+
+## 第二步：创建 API 密钥
+
+点击【创建 API】
+
+2.填写API信息：
+
+A.API备注：例如 Masbate
+
+B.权限设置：
+
+✅ 读取权限（Read Only）
+
+✅ 现货交易权限（Spot Trading）
+
+❌ 提币权限（Withdraw）（务必保持关闭）
+
+绑定 IP（推荐）：将自己的服务器 IP（如：123.123.123.123）输入在受信任的IP栏中，一旦启用了 IP 白名单，**其他设备将无法访问该 API，极大降低风险**；
+
+3.确认【确认】>【输入验证码】
+
+
+![步骤2截图](/images/huobi-phone-step2.png)
+
+## 第三步：获取API信息
+
+系统将生成以下两个重要信息：
+
+Access Key ：填写在Masbate自动化交易凭证的API KEY一栏。
+
+Secret Key：填写在Masbate自动化交易凭证的API Secret一栏。
+
+### 重要提醒：
+
+Secret Key 只会显示一次，**请务必妥善保存并备份**。
+
+不要将这两个密钥透露给任何第三方（包括截图分享）。
+
+
+![步骤3截图](/images/huobi-phone-step3.png)
+
+## 第四步：绑定 API 到 Masbate 自动化平台
+
+登录 Masbate自动化交易平台；
+
+进入【交易所凭证】>【创建API密钥】；
+
+填入您的 API Key 和 Secret Key；
+
+选择交易所为【火币 HTX】；
+
+点击【创建】。绑定成功后，即可实现智能交易功能！
+
+
+![步骤4截图](/images/huobi-phone-step4.png)
