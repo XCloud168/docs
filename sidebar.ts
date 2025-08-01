@@ -62,20 +62,16 @@ export const sidebar = {
               },
             ],
           },
-          // {
-          //   text: "Bybit",
-          //   collapsed: false,
-          //   items: [
-          //     {
-          //       text: "手机端API授权教程",
-          //       link: "/docs/bybit-phone-api",
-          //     },
-          //     {
-          //       text: "PC端API授权教程",
-          //       link: "/docs/bybit-pc-api",
-          //     },
-          //   ],
-          // },
+          {
+            text: "Bybit",
+            collapsed: false,
+            items: [
+              {
+                text: "PC端API授权教程",
+                link: "/docs/bybit-pc-api",
+              },
+            ],
+          },
           {
             text: "Bitget",
             collapsed: false,
