@@ -35,6 +35,20 @@ export const sidebar = {
             ],
           },
           {
+            text: "OKX",
+            collapsed: false,
+            items: [
+              {
+                text: "手机端API授权教程",
+                link: "/docs/okx-phone-api",
+              },
+              {
+                text: "PC端API授权教程",
+                link: "/docs/okx-pc-api",
+              },
+            ],
+          },
+          {
             text: "Gate",
             collapsed: false,
             items: [
