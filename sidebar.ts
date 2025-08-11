@@ -17,6 +17,28 @@ export const sidebar = {
       //   link: "/docs/subscribe-notifications",
       // },
       {
+        text: "交易所注册教程",
+        collapsed: false,
+        items: [
+          {
+            text: "币安注册流程",
+            link: "/docs/binance-register",
+          },
+          {
+            text: "OKX注册流程",
+            link: "/docs/okx-register",
+          },
+          {
+            text: "Gate注册流程",
+            link: "/docs/gate-register",
+          },
+          {
+            text: "Bitget注册流程",
+            link: "/docs/bitget-register",
+          },
+        ],
+      },
+      {
         text: "创建交易所凭证",
         collapsed: false,
         items: [
