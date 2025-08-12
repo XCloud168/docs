@@ -39,6 +39,32 @@ export const sidebar = {
         ],
       },
       {
+        text: "钱包使用教程",
+        collapsed: false,
+        items: [
+          {
+            text: "OKX钱包视频教程",
+            link: "/docs/okx-wallet-media",
+          },
+          {
+            text: "OKX钱包手机端",
+            link: "/docs/okx-wallet-phone",
+          },
+          {
+            text: "OKX钱包PC端",
+            link: "/docs/okx-wallet-pc",
+          },
+          {
+            text: "Metamask钱包插件 - PC端",
+            link: "/docs/metamask-wallet-pc",
+          },
+          {
+            text: "Phantom钱包插件 - PC端",
+            link: "/docs/phantom-wallet-pc",
+          },
+        ],
+      },
+      {
         text: "创建交易所凭证",
         collapsed: false,
         items: [
