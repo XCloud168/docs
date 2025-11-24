@@ -5,145 +5,145 @@ export const sidebar = {
     backLink: true,
     items: [
       {
-        text: "Introduction",
+        text: "Masbate 介绍",
         link: "/docs/introduction",
       },
       {
-        text: "Tutorials",
+        text: "Masbate 注册",
         link: "/docs/tutorials",
+      },
+      {
+        text: "Sniper Bot 部署教程",
+        link: "/docs/sniper-bot-deployment",
       },
       // {
       //   text: "Notifications",
       //   link: "/docs/subscribe-notifications",
       // },
       {
-        text: "交易所注册教程",
+        text: "交易所账户注册",
         collapsed: false,
         items: [
           {
-            text: "币安注册流程",
+            text: "币安",
             link: "/docs/binance-register",
           },
           {
-            text: "OKX注册流程",
+            text: "OKX",
             link: "/docs/okx-register",
           },
           {
-            text: "Gate注册流程",
+            text: "Gate",
             link: "/docs/gate-register",
           },
           {
-            text: "Bitget注册流程",
+            text: "Bitget",
             link: "/docs/bitget-register",
           },
         ],
       },
       {
-        text: "钱包使用教程",
+        text: "钱包账户创建",
         collapsed: false,
         items: [
           {
-            text: "OKX钱包视频教程",
-            link: "/docs/okx-wallet-media",
-          },
-          {
-            text: "OKX钱包手机端",
-            link: "/docs/okx-wallet-phone",
-          },
-          {
-            text: "OKX钱包PC端",
+            text: "OKX钱包 - PC端",
             link: "/docs/okx-wallet-pc",
           },
           {
-            text: "Metamask钱包插件 - PC端",
+            text: "OKX钱包 - 手机端",
+            link: "/docs/okx-wallet-phone",
+          },
+          {
+            text: "Metamask钱包 - PC端",
             link: "/docs/metamask-wallet-pc",
           },
           {
-            text: "Phantom钱包插件 - PC端",
+            text: "Phantom钱包 - PC端",
             link: "/docs/phantom-wallet-pc",
           },
         ],
       },
       {
-        text: "创建交易所凭证",
+        text: "创建交易所API凭证",
         collapsed: false,
         items: [
           {
             text: "币安",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "手机端API授权教程",
+                text: "币安 - 手机端API授权教程",
                 link: "/docs/binance-phone-api",
               },
               {
-                text: "PC端API授权教程",
+                text: "币安 - PC端API授权教程",
                 link: "/docs/binance-pc-api",
               },
             ],
           },
           {
             text: "OKX",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "手机端API授权教程",
+                text: "OKX - 手机端API授权教程",
                 link: "/docs/okx-phone-api",
               },
               {
-                text: "PC端API授权教程",
+                text: "OKX - PC端API授权教程",
                 link: "/docs/okx-pc-api",
               },
             ],
           },
           {
             text: "Gate",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "手机端API授权教程",
+                text: "Gate - 手机端API授权教程",
                 link: "/docs/gate-phone-api",
               },
               {
-                text: "PC端API授权教程",
+                text: "Gate - PC端API授权教程",
                 link: "/docs/gate-pc-api",
               },
             ],
           },
           {
             text: "火币",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "手机端API授权教程",
+                text: "火币 - 手机端API授权教程",
                 link: "/docs/huobi-phone-api",
               },
               {
-                text: "PC端API授权教程",
+                text: "火币 - PC端API授权教程",
                 link: "/docs/huobi-pc-api",
               },
             ],
           },
           {
             text: "Bybit",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "PC端API授权教程",
+                text: "Bybit - PC端API授权教程",
                 link: "/docs/bybit-pc-api",
               },
             ],
           },
           {
             text: "Bitget",
-            collapsed: false,
+            collapsed: true,
             items: [
               {
-                text: "手机端API授权教程",
+                text: "Bitget - 手机端API授权教程",
                 link: "/docs/bitget-phone-api",
               },
               {
-                text: "PC端API授权教程",
+                text: "Bitget - PC端API授权教程",
                 link: "/docs/bitget-pc-api",
               },
             ],
@@ -151,16 +151,22 @@ export const sidebar = {
         ],
       },
       {
-        text: "谷歌验证器教程",
+        text: "谷歌验证器安装",
         link: "/docs/google-authenticator-tutorial",
       },
       {
-        text: "买入及提现BNB教程",
-        link: "/docs/buy-and-withdraw-bnb",
-      },
-      {
-        text: "Sniper Bot 部署指南",
-        link: "/docs/sniper-bot-deployment",
+        text: "其他",
+        collapsed: true,
+        items: [
+          {
+            text: "交易所邀请码及注册链接",
+            link: "/docs/exchange-referral-codes",
+          },
+          {
+            text: "BNB买入及提现教程",
+            link: "/docs/buy-and-withdraw-bnb",
+          },
+        ],
       },
     ],
   },

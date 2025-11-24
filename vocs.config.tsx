@@ -5,12 +5,12 @@ import GTag from "./gtag";
 import { sidebar } from "./sidebar";
 
 export default defineConfig({
-  banner: {
-    backgroundColor: "#09cb6f",
-    textColor: "white",
-    content:
-      "Participate in the Masbate event and win $2,000 gift giveaway! [Join here](https://soquest.xyz/space/Masbate/campaign/ISCQxUxJks). ✨✨✨ ",
-  },
+  // banner: {
+  //   backgroundColor: "#09cb6f",
+  //   textColor: "white",
+  //   content:
+  //     "Participate in the Masbate event and win $2,000 gift giveaway! [Join here](https://soquest.xyz/space/Masbate/campaign/ISCQxUxJks). ✨✨✨ ",
+  // },
   title:
     "Masbate | AI-powered Web3 Investment Analysis Platform to Enhance Success Rates",
   logoUrl: {
